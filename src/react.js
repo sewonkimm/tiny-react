@@ -1,3 +1,5 @@
+export class Component {}
+
 function renderRealDOM(vdom) {
   if (typeof vdom === "string") {
     return document.createTextNode(vdom);
